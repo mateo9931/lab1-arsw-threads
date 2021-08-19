@@ -25,8 +25,10 @@
 	3. Ejecute y revise la salida por pantalla. 
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.
 	* Salida Usando start
+	* 
 	  	![](img/Punto1Start.png)
 	* Salida Usando run
+	* 
 	  	![](img/Punto1Run.png)
 		
 Cuando se ejecuta el thread con start el orden de ejecución de los hilos varía y por esto  la salida en la pantalla no se da en desorden, pero cuando se hace con run se respeta el orden de ejecución de los hilos y por esto la salida sale en orden, debido a la naturaleza de los métodos, el método run() el hilo se crea y se ejecuta inmediatamente en el método logrando que sea en "orden", mientras que con start() el hilo se crea y se vuelve ejecutable.
@@ -65,7 +67,7 @@ Para 'refactorizar' este código, y hacer que explote la capacidad multi-núcleo
 	* Dentro del método checkHost Se debe mantener el LOG que informa, antes de retornar el resultado, el número de listas negras revisadas VS. el número de listas negras total (línea 60). Se debe garantizar que dicha información sea verídica bajo el nuevo esquema de procesamiento en paralelo planteado.
 
 	* Se sabe que el HOST 202.24.34.55 está reportado en listas negras de una forma más dispersa, y que el host 212.24.24.55 NO está en ninguna lista negra.
-
+	![](img/Ip2.png)
 
 **Parte II.I Para discutir la próxima clase (NO para implementar aún)**
 
