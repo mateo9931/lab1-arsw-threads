@@ -25,9 +25,9 @@
 	3. Ejecute y revise la salida por pantalla. 
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.
 	*$ Salida Usando start
-	  	![](img/Punto1Start.PNG)
+	  	![](img/Punto1Start.png)
 	*$ Salida Usando run
-	  	![](img/Punto1Run.PNG)
+	  	![](img/Punto1Run.png)
 
 
 **Parte II - Ejercicio Black List Search**
