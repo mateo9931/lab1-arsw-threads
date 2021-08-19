@@ -109,6 +109,8 @@ El mejor desempeño se logra antes de los 500 hilos debido a que con una cantida
 
 
 Al usar el doble de hilos respecto al número de núcleos la velocidad se incrementó en el doble respecto a cuando se usó la cantidad de núcleos como la cantidad de hilos, esto debido a que se logra utilizar de una mejor manera los recursos disponibles para cada hilo.
+
+
 3. De acuerdo con lo anterior, si para este problema en lugar de 100 hilos en una sola CPU se pudiera usar 1 hilo en cada una de 100 máquinas hipotéticas, la ley de Amdahls se aplicaría mejor?. Si en lugar de esto se usaran c hilos en 100/c máquinas distribuidas (siendo c es el número de núcleos de dichas máquinas), se mejoraría?. Explique su respuesta.
 
 Para el primer caso no habría ningún tipo de mejora debido a que la cantidad de recursos es mucho mayor y la fracción paralelizable del algoritmo es la misma, para el segundo caso tampoco se presenta ningún tipo de mejora debido a que la fracción paralelizable del algoritmo es la misma y la cantidad de hilos se mantiene.
