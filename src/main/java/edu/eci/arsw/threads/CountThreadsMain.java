@@ -15,14 +15,6 @@ public class CountThreadsMain {
         CountThread countThread1 = new CountThread(0,99);
         CountThread countThread2 = new CountThread(99,199);
         CountThread countThread3 = new CountThread(200,299);
-
-        /*Inicio Con start*/
-
-//        countThread1.start();
-//        countThread2.start();
-//        countThread3.start();
-
-        /*Inicio Con run*/
         countThread1.run();
         countThread2.run();
         countThread3.run();
