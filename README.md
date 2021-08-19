@@ -2,7 +2,10 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 ## Ejercicio Introducción al paralelismo - Hilos - Caso BlackListSearch
-
+### Integrantes:
+> Mateo Quintero
+> 
+> Brayan Jiménez
 
 ### Dependencias:
 ####   Lecturas:
@@ -21,6 +24,13 @@
 	2. Inicie los tres hilos con 'start()'.
 	3. Ejecute y revise la salida por pantalla. 
 	4. Cambie el incio con 'start()' por 'run()'. Cómo cambia la salida?, por qué?.
+	* Salida Usando start
+	  	![](img/Punto1Start.png)
+	* Salida Usando run
+	  	![](img/Punto1Run.png)
+		
+Cuando se ejecuta el thread con start el orden de ejecución de los hilos varía y por esto  la salida en la pantalla no se da en desorden, pero cuando se hace con run se respeta el orden de ejecución de los hilos y por esto la salida sale en orden, debido a la naturaleza de los métodos, el método run() el hilo se crea y se ejecuta inmediatamente en el método logrando que sea en "orden", mientras que con start() el hilo se crea y se vuelve ejecutable.
+	
 
 **Parte II - Ejercicio Black List Search**
 
